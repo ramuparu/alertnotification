@@ -1,0 +1,107 @@
+/* Write your CSS here */
+
+.alert_page {
+  display: flex;
+  min-height: 100vh;
+  background-size: cover;
+  justify-content: center;
+}
+
+.alert_page_con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.alert_heading_style {
+  color: #0f172a;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'roboto';
+  align-self: center;
+}
+
+.alert_notification_card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.alert_notification_list_item {
+  list-style-type: none;
+}
+.alert_icon_notification_card {
+  display: flex;
+}
+
+.alert_notification_type_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.alert_success_head {
+  color: #2dca73;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'roboto';
+
+  margin-top: 0px;
+}
+
+.success_icon {
+  height: 20px;
+  width: 20px;
+  color: #2dca73;
+  margin-right: 10px;
+}
+.error_icon {
+  height: 20px;
+  width: 20px;
+  color: #ff0b37;
+  margin-right: 10px;
+}
+.warning_icon {
+  height: 20px;
+  width: 20px;
+  color: #ffb800;
+  margin-right: 10px;
+}
+.info_icon {
+  height: 20px;
+  width: 20px;
+  color: #0f81e0;
+  margin-right: 10px;
+}
+
+.alert_warning_head {
+  color: #ffb800;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'roboto';
+  margin-top: 0px;
+}
+.alert_error_head {
+  color: #ff0b37;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'roboto';
+  margin-top: 0px;
+}
+
+.alert_info_head {
+  color: #0f81e0;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'roboto';
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .alert_heading_style {
+    font-size: 50px;
+  }
+  .alert_page_con {
+    width: 700px;
+  }
+}
